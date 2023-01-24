@@ -1,4 +1,21 @@
 # nlp-assignement
+
+giveing assignemet:
+One possible way to implement this NLP pipeline using TF-IDF is as follows:
+
+Start by importing the necessary libraries, such as pandas for reading and manipulating the data, and sklearn for calculating the TF-IDF scores.
+Read in the csv file containing the news data, and extract the content column.
+Tokenize the content column into sentences.
+Calculate the TF-IDF scores for each sentence using the sklearn library.
+Sort the sentences by their TF-IDF scores in descending order.
+Select a threshold for the minimum TF-IDF score, and keep only the sentences that have a score above this threshold.
+Concatenate the remaining sentences to form a summary of the content.
+Create a new dataframe with the title, source, published_at, topic, and summary columns.
+remove the repeated and redundant rows and columns from the dataframe.
+Output the original content, new content, removed lines and further metrics.
+
+
+
 What is TD-IDF:
 The TF-IDF score of a word is calculated as the product of its term frequency (TF) and inverse document frequency (IDF).
 
